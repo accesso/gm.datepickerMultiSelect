@@ -25,7 +25,7 @@ SOFTWARE.
 (function() {
 	angular.module('gm.datepickerMultiSelect', ['ui.bootstrap'])
 	.config(['$provide', function($provide) {
-		$provide.decorator('daypickerDirective', ['$delegate', function($delegate) {
+		$provide.decorator('uibDaypickerDirective', ['$delegate', function($delegate) {
 			var directive = $delegate[0];
 
 			/* Override compile */
